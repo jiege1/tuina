@@ -1,8 +1,8 @@
 {
-  "name": "盛夏无线 api 文档",
+  "name": "妙手推拿 api 文档",
   "version": "1.0.0",
-  "description": "盛夏无线 api 文档",
-  "title": "盛夏无线 api 文档",
+  "description": "妙手推拿 api 文档",
+  "title": "妙手推拿 api 文档",
   "template": {
     "withCompare": true,
     "withGenerator": true
