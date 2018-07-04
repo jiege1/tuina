@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>香料管理系统</title>
+</head>
+<body>
+<div id="root"></div>
+<script>
+  const IP = 'http://localhost:3000';
+  // config
+  window.CFG = {
+    __publicPath__: 'http://localhost:8080',
+    // api接口
+    api: {
+      user: {
+        checkToken: IP + '/api/tuina/user/checkToken',
+
+        queryList: 'mock.userQueryList',
+        addUser: 'mock.bool',
+        deleteUser: 'mock.bool',
+        // queryList: IP + '/api/tuina/user/queryUserList',
+        // addUser: IP + '/api/tuina/user/addUser',
+        // deleteUser: IP + '/api/tuina/user/deleteUser',
+      },
+      customer: {
+        queryList: 'mock.queryCustomerList',
+        addCustomer: 'mock.bool',
+        deleteCustomer: 'mock.bool',
+        // queryList: IP + '/api/tuina/customer/queryCustomerList',
+        // addCustomer: IP + '/api/tuina/user/addCustomer',
+        // deleteCustomer: IP + '/api/tuina/user/deleteCustomer',
+      },
+    }
+  }
+</script>
+</body>
+</html>

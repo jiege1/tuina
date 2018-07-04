@@ -1,0 +1,48 @@
+
+@import "~common/less/var.less";
+
+.row {
+  margin-bottom: @spacer;
+  display: flex;
+
+  .item {
+    display: flex;
+  }
+  >button {
+    margin-right: @spacer;
+  }
+}
+
+.tableListForm {
+  :global {
+    .ant-form-item {
+      margin-bottom: @spacer;
+      margin-right: 0;
+      display: flex;
+      > .ant-form-item-label {
+        width: auto;
+        line-height: 4 * @spacer / 3;
+        padding-right: @spacer / 3;
+      }
+    }
+    .ant-form-item-control-wrapper {
+      flex: 1;
+    }
+  }
+  .submitButtons {
+    white-space: nowrap;
+    margin-bottom: @spacer;
+  }
+}
+
+@media screen and (max-width: @screen-lg) {
+  .tableListForm :global(.ant-form-item) {
+    margin-right: @spacer;
+  }
+}
+
+@media screen and (max-width: @screen-md) {
+  .tableListForm :global(.ant-form-item) {
+    margin-right: @spacer / 3;
+  }
+}

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>香料管理系统</title>
+</head>
+<body>
+<div id="login"></div>
+<script>
+  const IP = 'http://localhost:3000';
+  // config
+  window.CFG = {
+    __publicPath__: 'http://localhost:8080',
+    // api接口
+    api: {
+      user: {
+        login: IP + '/api/tuina/user/login',
+      }
+    }
+  }
+</script>
+</body>
+</html>

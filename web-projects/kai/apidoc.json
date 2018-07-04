@@ -1,0 +1,10 @@
+{
+  "name": "盛夏无线 api 文档",
+  "version": "1.0.0",
+  "description": "盛夏无线 api 文档",
+  "title": "盛夏无线 api 文档",
+  "template": {
+    "withCompare": true,
+    "withGenerator": true
+  }
+}

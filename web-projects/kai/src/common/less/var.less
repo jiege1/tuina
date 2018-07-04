@@ -1,0 +1,46 @@
+/**
+本文件定义项目通用变量
+ */
+//@import "~antd/lib/style/themes/default.less";
+
+// 通用间距
+@spacer: 24px;
+
+// 通用字体
+@font-family: -apple-system, BlinkMacSystemFont, "SF UI Text", "Helvetica Neue", STHeiti, "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "微软雅黑", "WenQuanYi Zen Hei", Tahoma,Simsun, sans-serif;
+
+// 边线颜色
+@border-color: #d9d9d9;
+
+@primary-color: #378df7;
+
+// 字体通用
+.font-small() {
+  font-size: 12px;
+  line-height: 18px;
+}
+.font-normal() {
+  font-size: 14px;
+  line-height: 22px;
+}
+.title-small() {
+  font-size: 16px;
+  line-height: 24px;
+}
+.title-normal() {
+  font-size: 20px;
+  line-height: 28px;
+}
+.title-big() {
+  font-size: 30px;
+  line-height: 38px;
+}
+.color(@opacity) {
+  color: rgba(0, 0, 0, @opacity);
+}
+.bgColor(@opacity) {
+  background: rgba(0, 0, 0, @opacity);
+}
+
+@screen-lg: 992px;
+@screen-md: 768px;
